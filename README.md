@@ -3,6 +3,7 @@
 DWXG is a cool image format based in python which is revolutionary with its features and easy of use, and soon will be integrated within websites and other software.
 
 ## Features
+
 - DWXG image format.
 - Convert .jpg .jpeg, .png .bmp files to .dwxg.
 - View DWXG image files.
