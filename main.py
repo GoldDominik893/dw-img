@@ -4,6 +4,7 @@ from PIL import Image, ImageTk
 import zlib
 import os
 
+
 # Function to view a DWXG image file using the old image viewer with zoom and scroll
 def view_dwxg(file_path):
     def zoom(event):
@@ -85,6 +86,7 @@ def view_dwxg(file_path):
     except Exception as e:
         messagebox.showerror("Error", f"Failed to view DWXG file: {e}")
 
+
 # Function to convert an image to DWXG format with optional compression and other settings
 def convert_to_dwxg(image_path, output_path, enable_compression=False, enable_dithering=False, color_depth=16, rotate=0, flip=None, resize=None):
     try:
@@ -139,6 +141,7 @@ def convert_to_dwxg(image_path, output_path, enable_compression=False, enable_di
         messagebox.showinfo("Success", f"Image converted to DWXG format and saved to {output_path}")
     except Exception as e:
         messagebox.showerror("Error", f"Failed to convert image: {e}")
+
 
 # Function to open the conversion window and allow user to select options
 def open_conversion_window():
@@ -249,6 +252,7 @@ def open_conversion_window():
     create_button = tk.Button(conversion_window, text="Create DWXG", command=create_dwxg)
     create_button.grid(row=8, column=0, columnspan=3, pady=10)
 
+
 # Main GUI
 def main():
     root = tk.Tk()
@@ -275,6 +279,7 @@ def main():
     view_button.pack(pady=10)
 
     root.mainloop()
+
 
 if __name__ == "__main__":
     main()
