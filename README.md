@@ -100,14 +100,14 @@ This repository contains a ready to use python file at `/python/main.py`.
 
 ### Python Version
 
-Main window
+#### Main window
 
 ![image](https://github.com/user-attachments/assets/75ed3ed0-e168-44e5-85dd-e0cdf62a3e08)
 
-Conversion window (to DWXG)
+#### Conversion window (to DWXG)
 
 ![image](https://github.com/user-attachments/assets/462f18a1-de3d-4628-864d-17e76d995ca7)
 
-Viewing coco.dwxg
+#### Viewing coco.dwxg
 
 ![image](https://github.com/user-attachments/assets/a7b9d4d7-0b09-4a74-ab1c-4d6a1389789a)
