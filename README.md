@@ -96,7 +96,27 @@ This repository contains a ready to use python file at `/python/main.py`.
 
 ### Javascript version
 
+#### Using the viewer
+
+![image](https://github.com/user-attachments/assets/84fc9538-7afa-4925-9e97-ea65804245e3)
+
+#### Using the <img> integration
+
+![image](https://github.com/user-attachments/assets/08d4f803-24e8-485d-b119-416b95bd85f7)
+
 ### Rust version
+
+#### Main window
+
+![image](https://github.com/user-attachments/assets/89996aa1-bd84-424a-ab6c-4848f8f7f367)
+
+#### DWXG image viewer window
+
+![image](https://github.com/user-attachments/assets/a3e0b765-5232-4c10-a622-cec5748efc2f)
+
+#### Image creation window
+
+![image](https://github.com/user-attachments/assets/6afda89c-eff4-49e8-86c5-472212e5558d)
 
 ### Python Version
 
