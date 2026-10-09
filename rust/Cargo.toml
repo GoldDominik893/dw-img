@@ -1,0 +1,16 @@
+[package]
+name = "dwxg-studio"
+version = "0.1.0"
+edition = "2024"
+description = "Desktop converter and viewer for the DWXG image format"
+license = "MIT"
+
+[dependencies]
+eframe = "0.36.2"
+image = { version = "0.25.10", default-features = false, features = ["png", "jpeg", "bmp", "gif", "webp", "tiff"] }
+rfd = "0.15.4"
+flate2 = "1.1"
+
+[profile.release]
+opt-level = 2
+lto = "thin"
